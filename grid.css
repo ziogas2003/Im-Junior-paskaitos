@@ -1,0 +1,33 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+    .grid-container {
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100px 200px 300px 400px;
+    }
+
+    .item-1{
+        background-color: blue;
+        grid-column: 1/2;
+        grid-row: 2/4 ;
+    }
+
+    .item-1:hover{
+        z-index: 1;
+    }
+
+    .item-2 {
+        background-color: brown;
+    }
+    .item-3 {
+        background-color: green;
+    }
+    .item-4 {
+        background-color: orange;
+        grid-column: 1/-1;
+        grid-row: 2/3;
+    }

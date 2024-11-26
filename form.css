@@ -1,0 +1,35 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+textarea{
+    resize: none;
+}
+
+.form-container {min-height: 100vh;
+background-color: rgb(75, 57, 25);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+form > div label {
+    min-width: 100px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+form>div label> * {
+    flex: 1;
+}

@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.top-navigation {
+    background-color: #344;
+}
+
+.top-navigation>a,
+.top-navigation ul {
+    border: 5px red;
+}
+
+.top-navigation {
+    display: flex;
+    justify-content: space-around;
+}
